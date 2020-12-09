@@ -1,8 +1,5 @@
 
-
-
 #インベントリのアイテムに触った場合、死
-
 execute as @s if entity @s[nbt={Inventory:[{Slot:100b}]}] run kill @s
 execute as @s if entity @s[nbt={Inventory:[{Slot:101b}]}] run kill @s
 execute as @s if entity @s[nbt={Inventory:[{Slot:102b}]}] run kill @s
@@ -39,13 +36,7 @@ execute as @s unless entity @s[nbt={Inventory:[{Slot:34b,tag:{fill:1b}}]}] run k
 execute as @s unless entity @s[nbt={Inventory:[{Slot:35b,tag:{fill:1b}}]}] run kill @s
 
 
-
-
-
-
-#data modify entity @s Inventory[{Slot:0b}].tag.AttributeModifiers append value {AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-5,Operation:0,UUID:[I;-1151841016,-2128264956,-1791331111,1693585609]}
-#replaceitem entity @s armor.head red_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-10,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 2
-
+#ホットバーの埋まっているアイテムスロット数をカウントする
 execute as @s run scoreboard players operation @s tmp_hotbar_count = @s hotbar_count
 execute as @s run scoreboard players set @s hotbar_count 0
 execute as @s if entity @s[nbt={Inventory:[{Slot:0b}]}] run scoreboard players add @s hotbar_count 1

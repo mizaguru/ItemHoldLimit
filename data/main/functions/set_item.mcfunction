@@ -1,6 +1,6 @@
 
 
-
+#インベントリに詰め込むアイテム
 replaceitem entity @s armor.head blue_stained_glass_pane{display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
 
 replaceitem entity @s inventory.0 black_stained_glass_pane{display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1

@@ -1,5 +1,5 @@
 
-
+#初期設定
 scoreboard objectives add time_since_d minecraft.custom:minecraft.time_since_death
 scoreboard objectives add _ dummy
 scoreboard objectives add hotbar_count dummy
