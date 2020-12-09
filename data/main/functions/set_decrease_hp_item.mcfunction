@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+execute as @s if score @s hotbar_count = $const_int_0 _ run replaceitem entity @s armor.head blue_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_1 _ run replaceitem entity @s armor.head blue_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-2,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_2 _ run replaceitem entity @s armor.head blue_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-4,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_3 _ run replaceitem entity @s armor.head yellow_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-6,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_4 _ run replaceitem entity @s armor.head yellow_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-8,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_5 _ run replaceitem entity @s armor.head yellow_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-10,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_6 _ run replaceitem entity @s armor.head orange_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-12,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_7 _ run replaceitem entity @s armor.head orange_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-14,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_8 _ run replaceitem entity @s armor.head red_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-16,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_9 _ run replaceitem entity @s armor.head red_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-18,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
+execute as @s if score @s hotbar_count = $const_int_10 _ run replaceitem entity @s armor.head red_stained_glass_pane{AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-20,Operation:0,UUID:[I;1241969421,-1509013638,-1715442672,1279707506]}],display:{Name:'{"text":"※取ると死※","color":"red","bold":true}'},HideFlags:63,fill:1b} 1
