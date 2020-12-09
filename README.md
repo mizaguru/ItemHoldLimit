@@ -10,4 +10,5 @@
 →スロットが１つ埋まるごとに最大HPのハートが１つ減ります。
 - 頭に装備している板ガラスの色で大体のヤバさがわかります。(触ると死にます。)
  
-### [DLはこちらから]()
+### DLは[こちら](https://github.com/mizaguru/ItemHoldLimit/releases)から  
+Assets -> ItemHoldLimit.zip をDLしてください
